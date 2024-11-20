@@ -1,0 +1,5 @@
+var hydrogen = Array.from(Array(20).keys()).map(x => "H")
+var carbon = Array.from(Array(15).keys()).map(x => "C")
+var oxygen = Array.from(Array(15).keys()).map(x => "O")
+var deck = hydrogen.concat(carbon).concat(oxygen)
+console.log(deck)
